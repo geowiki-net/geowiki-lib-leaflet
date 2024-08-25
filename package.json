@@ -1,0 +1,19 @@
+{
+  "name": "geowiki-lib-leaflet",
+  "version": "0.0.0",
+  "description": "Leaflet bindings for Geowiki apps",
+  "main": "src/map.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geowiki-net/geowiki-lib-leaflet.git"
+  },
+  "author": "Stephan Bösch-Plepelits <skunk@xover.mud.at>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/geowiki-net/geowiki-lib-leaflet/issues"
+  },
+  "homepage": "https://github.com/geowiki-net/geowiki-lib-leaflet#readme"
+}
