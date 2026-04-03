@@ -25,6 +25,8 @@ function appInit (app, callback) {
 
   app.map.attributionControl.setPrefix('<a target="_blank" href="' + encodeURI(app.config.app.url) + '">' + app.config.app.name + '</a>')
 
+  app.emit('map-init', map)
+
   app.map.on('moveend', (e) => {
     if (app.interactive) {
       app.updateLink()
