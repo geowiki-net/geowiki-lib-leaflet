@@ -1,5 +1,5 @@
 {
-  "name": "geowiki-lib-leaflet",
+  "name": "@geowiki-net/geowiki-lib-leaflet",
   "version": "0.0.0",
   "description": "Leaflet bindings for Geowiki apps",
   "main": "src/map.js",
