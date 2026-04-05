@@ -5,7 +5,7 @@ module.exports = {
   appInit
 }
 
-function appInit (app, callback) {
+function appInit (app) {
   // default app config
   app.config.app = {
     ...{
@@ -91,8 +91,6 @@ function appInit (app, callback) {
       state.zoom = zoom
     }
   })
-
-  callback()
 }
 
 /**
