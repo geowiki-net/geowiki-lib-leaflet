@@ -2,10 +2,12 @@
 module.exports = {
   id: 'map',
   requireModules: ['config'],
-  appInit
+  appInit (app) {
+    app.on('init', () => mapInit(app))
+  }
 }
 
-function appInit (app) {
+function mapInit (app) {
   // default app config
   app.config.app = {
     ...{
